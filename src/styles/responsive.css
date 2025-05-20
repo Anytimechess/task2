@@ -13,11 +13,17 @@
   .img{
     width: 100%;
   }
-  .upload-modal{
-    width: 90%;
-    height: 350px;
-  top: 30%;
-  left: 5%;
+ .upload-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* perfect centering */
+  width: 90%;
+  max-width: 400px;
+  height: 350px;
+  background: rgb(0, 0, 0);
+  z-index: 1000;
+  border-radius: 10px;
 }
 form{
   width: 100%;
