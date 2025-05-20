@@ -20,15 +20,18 @@
   transform: translate(-50%, -50%); /* perfect centering */
   width: 90%;
   max-width: 400px;
-  height: 350px;
+  /* min-height: 350px; */
   background: rgb(0, 0, 0);
   z-index: 1000;
   border-radius: 10px;
 }
 form{
-  width: 90%;
+  width: 100%;
 }
 .delete-btn{
   right: 0px;
+}
+input,textarea,.btn-submit{
+  width: 100%;
 }
 }
