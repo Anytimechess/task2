@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../src/styles/index.css">
+</head>
+<body>
+     <div class="item-1">
+       <div class="upload-modal">
+                  <div class="upload-modal-content ">
+                     <span class="close-btn">X</span>
+                     <form>
+                           <div class="form-group">
+                              <label for="exampleFormControlFile1">file input:</label>
+                              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                              <div class="file-preview"></div>
+                           </div>
+                           <div class="form-group">
+                                 <label for="exampleInputEmail1">Name:</label>
+                                 <input type="text" class="form-control" id="dogs-name" aria-describedby="emailHelp" placeholder="Enter Name">
+                                 <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                           </div>
+                           <div class="form-group">
+                              <label for="dog-discription">Picture info:</label>
+                              <textarea name="dog-discription" class="form-control" id="dogs-info" placeholder="say something about the dog"></textarea>
+                           </div>
+                           <button type="button" class="btn btn-primary btn-submit">Submit</button>
+                     </form>
+                  </div>
+       </div>
+       <div class="modal-overlay"></div>
+        <h2>Image Gallery</h2>
+        <div class="item-1-div">
+           <!-- <button class="plus-btn"><img src="../public/images/plus.png" alt=""></button> -->
+            <button class="add-images-btn"> <span class="bi bi-plus">Add Images</span></button> 
+        </div> 
+     </div>
+     <div class="item-2">
+        <!-- <p>Click on any image to view in full size</p> -->
+     </div>
+  <section>
+     <div class="item-3">
+       
+     </div>
+  </section>
+  <script src="../src/scripts/index.js"></script>
+</body>
+
+</html>
