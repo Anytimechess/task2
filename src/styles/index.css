@@ -16,7 +16,7 @@ section{
 }
 .add-images-btn{
   padding: 10px;
-  background: white;
+    background: white;   
 }
 .add-images-btn span{
   font-size: large;
@@ -158,7 +158,7 @@ form{
   height: 100%;
   z-index:2;
 }
-body.no-scroll {
+body.no-scroll{
   overflow: hidden;
   /* pointer-events: none; */
 }

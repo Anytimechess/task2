@@ -1,0 +1,16 @@
+@media screen and (orientation:Portrait){
+  section{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .item-3{
+   display: grid;
+   grid-template-columns: 12fr;
+  }
+  body{
+    min-height:1000px ;
+  }
+  .img{
+    width: 100%;
+  }
+}
