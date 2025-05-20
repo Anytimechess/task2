@@ -13,4 +13,16 @@
   .img{
     width: 100%;
   }
+  .upload-modal{
+    width: 350px;
+    height: 350px;
+  top: 30%;
+  left: 5%;
+}
+form{
+  width: 100%;
+}
+.delete-btn{
+  right: 0px;
+}
 }
